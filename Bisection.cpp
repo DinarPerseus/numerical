@@ -25,7 +25,8 @@ int main(int argc, char const *argv[])
             fa=fc;
             a=c;
         }
-    } while (fabs(a-b)>0.0001);
-    printf("%.6f",fc);
+    } while (fabs((b-a)/b)>=0.0001);
+    c=(a+b)/2;
+    printf("%.6f",c);
     return 0;
 }
