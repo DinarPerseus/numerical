@@ -24,6 +24,6 @@ int main(int argc, char const *argv[])
             a=c;
         }
     } while (fabs(fc)>0.0001);
-    printf("%.6f\n",fc);
+    printf("%.6f\n",c);
     return 0;
 }
